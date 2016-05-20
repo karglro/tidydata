@@ -2,27 +2,28 @@
 
 # Cleaning Data
 
-## File: run_analysis.R
+## File: 
+run_analysis.R
 
 ## Description: 
 The provided R script takes the Human Activity Recognition Using Smartphones Data Set and provides a tidy dataset for further analysis.
 The original dataset can be downloaded from https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip.
 
-For the script to run correctly, the follwing requirements must be met:
+For the script to run correctly, the following requirements must be met:
 
-1) run_analysis.R must be run in the root folder of the original dataset folder
-2) The R package reshape2 must be installed
+1. run_analysis.R must be run in the root folder of the original dataset folder
+2. The R package reshape2 must be installed
 
 The tidy output will be stored in the file tidydata.txt
 
 
 The script performs the following basic steps
 
-1) It merges the original training and test sets into one data set
-2) It extracts only measurements related to mean and standard deviation of a measurement
-3) Integer values for Activities in the original dataset are replaced by descriptiv names (SITTING,WALKING, STANDING, etc.) 
-4) A header with descriptiv names of the measures is provided
-5) A tidy data set is extracted listing average values for each subject, activity and variable
+1. It merges the original training and test sets into one data set
+2. It extracts only measurements related to mean and standard deviation of a measurement
+3. Integer values for Activities in the original dataset are replaced by descriptiv names (SITTING,WALKING, STANDING, etc.) 
+4. A header with descriptiv names of the measures is provided
+5. A tidy data set is extracted listing average values for each subject, activity and variable
 
 
 
